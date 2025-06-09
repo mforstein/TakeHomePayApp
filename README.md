@@ -1,4 +1,24 @@
-# TakeHomePayApp
-This Respository contains Python Code for a Calculator for determining takehome pay.
-LinkedIn Article: Visualizing Your Real Net Pay with the Take Home Pay App
- In today's job market, salary alone doesn't tell the whole story. Commute costs, taxes, insurance, and other expenses dramatically affect your take-home pay. That’s why I built the Take Home Pay App — a Streamlit-powered web tool that brings financial transparency to your job search or relocation decision-making.  🔍 What It Does: - Calculates your actual net income after factoring in commuting miles, gas cost, taxes (federal, state, FICA), car payments, and healthcare. - Lets you select which days you commute (e.g., hybrid or remote schedules). - Visualizes cities within a user-defined distance of your chosen address. - Interactive map and bar chart to compare real take-home pay across different cities.  ⚙️ Features: - Add or remove cities to customize your scenario. - Automatically geocodes new cities you enter. - Distance filter slider (3–300 miles), Salary slider ($1–500K), and more. - Fully interactive, with instant updates when you change inputs. - A clean and intuitive UI — built using Streamlit and Folium.  🎯 Why It Matters: This tool empowers job seekers, remote workers, and hybrid employees to make smarter decisions — not just based on gross salary, but on what actually ends up in their bank account after all expenses.  🧠 Built with Python, Pandas, Streamlit, Folium, and Geopy. 📅 Released: June 2025 👨‍💻 Author: Micah Forstein  Stay tuned for a public GitHub release and tutorial on how to build your own financial transparency tools. #DataVisualization #Python #Streamlit #FinancialPlanning #JobSearch #RemoteWork 
+# Take Home Pay App
+
+This Streamlit app helps users visualize their take-home pay after taxes and commute costs across US cities.
+
+## Getting Started
+
+1. Install requirements:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Run the app:
+   ```bash
+   streamlit run location_take_home_pay_app.py
+   ```
+
+3. Or double-click `TakeHomePayApp.command` on macOS.
+
+## Features
+
+- Map visualization of cities
+- Custom commute days and locations
+- Dynamic net pay calculation
+- Add/remove cities
